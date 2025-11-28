@@ -1,11 +1,13 @@
+#include <bits/stdc++.h>
 #include <iostream>
+#include <iomanip>
 using namespace std;
-int main() 
-{
-    int a,b; // описание переменных
-    cout << "Введите 2 целых числа" << endl; // оператор вывода
-    cin >> a >> b; // оператор ввода
-    cout << "Их сумма равна " << a + b; // оператор вывода
-    return 0;
 
+int main() 
+{ 
+    double i = 12345.6789;
+    cout << serprecision(3) << i << endl;
+    cout << serprecision(6) << i << endl;
+    cout << serprecision(9) << i << endl;
+    return 0;
 }
