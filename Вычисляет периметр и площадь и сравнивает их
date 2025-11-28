@@ -1,11 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
-void lune(float x, float &p, float &s)
+void lune(float x, float &p, float &S)
 {
     p=4*x;
     S=p*p;
 }
 int main() 
 { 
+    float x, p, S;
+    cout << "Введите значение x: " << endl;
+    cin >> x;
     (p>s)?cout<<"Больше ":cout<<"s больше";
+    return 0;
 }
