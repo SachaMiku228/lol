@@ -1,19 +1,13 @@
-#include <bits/stdc++.h>
 #include <iostream>
-#include <cmath>
 using namespace std;
 
-void f(float&x)
+int main() 
 {
-    x = ( x >= 0) ? x*2-x;
-}
-
-int main()
-{
-    float a;
-    cout << "Введите a" << indl;
-    cin >> a;
-    f(a);
-    cout << "a = " << a;
+	for (int i = 1; i < 100 ; ++i) // перебираем все числа от 1 до 99
+	{
+	    if (i % 2) // есои число нечетное, то переходим к следующей итерации
+	        continue;
+	        cout << i << "\t"; // выводим число на экран
+	}
     return 0;
 }

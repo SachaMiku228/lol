@@ -1,19 +1,17 @@
-#include <bits/stdc++.h>
 #include <iostream>
-#include <cmath>
 using namespace std;
 
-float f(x)
+int main() 
 {
-    return pow(x, 3) - pow(x, 2) + x - 1;
-}
-
-int main()
-{
-    float a,b,c,z;
-    cout << "Введите a,b и c" << endl;
-    cin >> a >> b >> c;
-    2 = f(2*a) + f(b+c);
-    cout << "2 = " << 2;
+	float x;
+	metka: cout << "x = "; // метка
+	        cin >> x;
+	        if (x)
+	            cout << "y = " << 1/x << endl;
+	            else
+	            {
+	                cout << "функция не определина \n";
+	                goto metka; //передача управления метке
+	            }
     return 0;
 }

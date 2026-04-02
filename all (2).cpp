@@ -1,19 +1,12 @@
-#include <bits/stdc++.h>
-#include <iosteam>
+#include <iostream>
 using namespace std;
 
-
-float max(float x, float y); //объявление функции
-	
-int main() // главная функция
-	{
-	    float a = 5.5, b = 3.2, c = 14.1, d;
-	    d = max(max(a,b), c); // 1
-        cout << "max = " << d << endl;
-        return 0;
-	}
-    
-float max(float x, float y) // определение функции
-    {
-        return (x > y) ? x : y;
-    }
+int main() 
+{
+	int n;
+	cout << "n = ";
+	cin >>n;
+    for (int i = 1; i <= n; i++) // для i от 1 до n с шагом 1 
+        cout<< i << "\t"; // выводить на экран значение i 
+    return 0;
+}
